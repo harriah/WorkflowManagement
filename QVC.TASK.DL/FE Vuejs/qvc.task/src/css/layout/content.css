@@ -1,0 +1,37 @@
+.m-c-info {
+  width: 350px;
+  height: auto;
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+}
+
+.m-c-hello {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.m-c-hello > span {
+  font-size: 20px;
+}
+
+.m-c-datetime {
+  width: 100%;
+  height: auto;
+}
+
+.m-c-saying {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.m-c-saying > span {
+  font-size: 15px;
+}
+
+.datetime-text {
+  font-size: 60px;
+}
