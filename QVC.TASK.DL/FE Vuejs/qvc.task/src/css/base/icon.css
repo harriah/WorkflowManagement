@@ -1,0 +1,89 @@
+.icon {
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.icon-pos-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-pos-18 {
+  width: 18px;
+  height: 18px;
+}
+
+.icon-pos-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-pos-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-pos-32 {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-6 {
+  width: 6px;
+  height: 6px;
+  background-size: 6px 6px;
+}
+
+.icon-10 {
+  width: 10px;
+  height: 10px;
+  background-size: 10px 10px;
+}
+
+.icon-13 {
+  width: 13px;
+  height: 13px;
+  background-size: 13px 13px;
+}
+
+.icon-16 {
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+}
+
+.icon-18 {
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+}
+
+.icon-20 {
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
+
+.icon-24 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+}
+
+.icon-25 {
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+}
+
+.icon-30 {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+}
+
+.icon-32 {
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+}

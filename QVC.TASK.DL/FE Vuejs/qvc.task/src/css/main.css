@@ -1,0 +1,168 @@
+@import url(./layout/mytask.css);
+@import url(./base/dialog.css);
+@import url(./base/icon.css);
+@import url(./base/popup.css);
+@import url(./base/input.css);
+@import url(./layout/header.css);
+@import url(./layout/sidebar.css);
+@import url(./layout/content.css);
+@import url(./base/scrollbar.css);
+@import url(./base/button.css);
+@import url(./layout/login.css);
+@import url(./base/table.css);
+@import url(./layout/register.css);
+
+@font-face {
+  font-family: GoogleSans;
+  src: url(/src/assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: GoogleSans-Bold;
+  src: url(/src/assets/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf);
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  position: relative;
+}
+* {
+  font-family: Arial;
+}
+
+.main {
+  width: calc(100% - 250px);
+  height: 100vh;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/src/assets/img/background-login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dashboard {
+  background-image: url(/src/assets/img/lightbulb-3104355.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.my-task {
+  background-color: white;
+}
+
+.scrollbar {
+  overflow: auto;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+  background-color: #eef8ec;
+  cursor: pointer;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #96d58a;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #adf89e;
+}
+
+a{
+  text-decoration: none;
+}
+.h-myjob{
+  width: 300px;
+  height: 100%;
+  background-color: transparent;
+  margin-left: 20px;
+}
+.h-jobprogess{
+  width: 300px;
+  height: 100%;
+  background-color: transparent;
+  margin-left: 20px;
+}
+.h-myjob-count{
+  width: 300px;
+  height: auto;
+  background-color: transparent;
+}
+.container-h-option{
+  width: auto;
+  height: calc(100% - 40px);
+  background-color: transparent;
+  position: absolute;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.tite-h{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.body-h{
+  background-color: #fff;
+  width: calc(100% - 40px);
+  height: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+.item-h{
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.count-body{
+  margin-right: 0px;
+}
+.item-left{
+  display: flex;
+  align-items: center;
+}
+.text-body{
+  color: #666;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.count-body{
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 600;
+}
+.icon-quahan{
+  background-image: url(./../assets/img/quahan.svg);
+}
+.icon-danglam{
+  background-image: url(./../assets/img/dangthuchien.svg);
+}
+.icon-dahoanthanh{
+  background-image: url(./../assets/img/checked-tron.svg);
+}
+.icon-giaochotoi{
+  background-image: url(./../assets/img/giaochotoi.svg);
+}
+.body-h-list{
+  background-color: transparent;
+  width: 100%;
+  height: calc(100% - 26px);
+}

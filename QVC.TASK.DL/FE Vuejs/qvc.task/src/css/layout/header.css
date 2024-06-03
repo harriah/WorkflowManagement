@@ -1,0 +1,84 @@
+.m-header {
+  width: calc(100% - 40px);
+  height: 32px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-content {
+  width: calc(100% - 40px);
+  height: calc(100vh - 92px);
+  position: relative;
+  padding: 20px;
+}
+
+.icon-custom {
+  background-image: url(/src/assets/img/list-icon.svg);
+  background-repeat: no-repeat;
+  background-position: -520px -264px;
+  filter: brightness(0) invert(1);
+}
+
+.icon-add {
+  background-image: url(/src/assets/img/list-icon.svg);
+  background-repeat: no-repeat;
+  background-position: -168px -104px;
+  filter: brightness(0) invert(1);
+}
+
+.btn-h-layout {
+  height: 75%;
+  border-left: 1px solid #fff;
+  margin-left: 15px;
+}
+
+.icon-h-drop {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  background-image: url(/src/assets/img/list-icon.svg);
+  background-repeat: no-repeat;
+  background-position: -232px -104px;
+  filter: brightness(0) invert(1);
+}
+
+.btn-add-plus {
+  height: 100%;
+  width: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-right: -16px;
+  padding-right: 5px;
+}
+
+.m-h-right {
+  display: flex;
+}
+
+.icon-search {
+  background-image: url(/src/assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+  background-position: -1040px -88px;
+}
+
+.icon-notification {
+  background-image: url(/src/assets/img/notification.svg);
+  background-repeat: no-repeat;
+}
+
+.icon-message {
+  background-image: url(/src/assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+  background-position: -899px -30px;
+}
+
+.icon-setting {
+  background-image: url(/src/assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+  background-position: -568px -30px;
+}

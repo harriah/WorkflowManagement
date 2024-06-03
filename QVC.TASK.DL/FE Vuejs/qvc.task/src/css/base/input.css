@@ -1,0 +1,37 @@
+.input {
+  outline: unset;
+  border: 1px solid #e0e5e9;
+  border-radius: 4px;
+  padding: 8px 8px 8px 8px;
+  height: 18px;
+  font-size: 14px;
+  width: calc(100% - 16px);
+}
+
+.input-icon-left {
+  padding-left: 34px;
+}
+
+.input:hover {
+  border-color: #b9e2b1;
+  cursor: pointer;
+}
+
+.input:focus {
+  border-color: #50b83c;
+}
+
+.input::placeholder {
+  font-size: 13px;
+  color: #9e9e9e;
+}
+
+.i-search-left {
+  padding-left: 32px;
+  width: calc(100% - 42px);
+}
+
+.i-cbb-right {
+  padding-right: 32px;
+  width: calc(100% - 42px);
+}

@@ -1,0 +1,101 @@
+.wrap-register {
+  width: auto;
+  min-height: 365px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 12px 20px rgb(0 0 0 / 12%);
+  padding: 48px 48px 48px 48px;
+}
+
+.register-header-title {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.reg-content {
+  width: 700px;
+  height: auto;
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.reg-info-body {
+  padding-top: 24px;
+}
+
+.reg-content-info {
+  flex: 1;
+  height: auto;
+  margin-right: 16px;
+}
+
+.reg-content-info-login {
+  flex: 1;
+  height: auto;
+  margin-left: 16px;
+}
+
+.reg-info-title {
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #666666;
+  display: flex;
+  justify-content: center;
+}
+
+.layout-row {
+  width: 80%;
+  border-bottom: 1px solid #9e9e9e;
+  margin: 0 auto;
+}
+
+.layout-column {
+  height: 100%;
+  border-left: 1px solid #9e9e9e;
+  margin: auto 0;
+}
+
+.f-i-title {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  color: #666666;
+}
+
+.f-title-reg{
+    font-size: 12px;
+    color: #212121;
+}
+
+.from-item + .from-item {
+  margin-top: 12px;
+}
+
+.item-group {
+  display: flex;
+}
+
+.item-group > .from-item {
+  margin-top: 0px;
+}
+
+.sp-form-reg{
+    top:32px;
+    right: 8px;
+}
+
+.item-pos{
+    position: relative;
+}
+
+.input-pass{
+    padding-right: 32px;
+    width: calc(100% - 40px);
+}
